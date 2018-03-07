@@ -1,0 +1,215 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class frmTimetable
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.klojh = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnReturn = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.Buckingham = New System.Windows.Forms.TabPage()
+        Me.LionGate = New System.Windows.Forms.TabPage()
+        Me.DennisSciama = New System.Windows.Forms.TabPage()
+        Me.Richmond = New System.Windows.Forms.TabPage()
+        Me.Portland = New System.Windows.Forms.TabPage()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControl1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'klojh
+        '
+        Me.klojh.BackColor = System.Drawing.Color.RoyalBlue
+        Me.klojh.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.klojh.Location = New System.Drawing.Point(467, -1)
+        Me.klojh.Name = "klojh"
+        Me.klojh.Size = New System.Drawing.Size(885, 141)
+        Me.klojh.TabIndex = 13
+        Me.klojh.Text = "Timetable"
+        Me.klojh.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.WindowsApp1.My.Resources.Resources.ECIS_Logo_F_01
+        Me.PictureBox2.Location = New System.Drawing.Point(309, -1)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(157, 141)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 12
+        Me.PictureBox2.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1080, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(86, 32)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "Label2"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(823, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(86, 32)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Label3"
+        '
+        'btnReturn
+        '
+        Me.btnReturn.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReturn.Location = New System.Drawing.Point(12, 100)
+        Me.btnReturn.Name = "btnReturn"
+        Me.btnReturn.Size = New System.Drawing.Size(291, 40)
+        Me.btnReturn.TabIndex = 19
+        Me.btnReturn.Text = "Return"
+        Me.btnReturn.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnReturn.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources.lin
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(315, 103)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 18
+        Me.PictureBox1.TabStop = False
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.Buckingham)
+        Me.TabControl1.Controls.Add(Me.LionGate)
+        Me.TabControl1.Controls.Add(Me.DennisSciama)
+        Me.TabControl1.Controls.Add(Me.Richmond)
+        Me.TabControl1.Controls.Add(Me.Portland)
+        Me.TabControl1.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControl1.Location = New System.Drawing.Point(12, 185)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(1326, 532)
+        Me.TabControl1.TabIndex = 20
+        '
+        'Buckingham
+        '
+        Me.Buckingham.Location = New System.Drawing.Point(4, 46)
+        Me.Buckingham.Name = "Buckingham"
+        Me.Buckingham.Padding = New System.Windows.Forms.Padding(3)
+        Me.Buckingham.Size = New System.Drawing.Size(1318, 482)
+        Me.Buckingham.TabIndex = 0
+        Me.Buckingham.Text = "Buckingham"
+        Me.Buckingham.UseVisualStyleBackColor = True
+        '
+        'LionGate
+        '
+        Me.LionGate.Location = New System.Drawing.Point(4, 46)
+        Me.LionGate.Name = "LionGate"
+        Me.LionGate.Padding = New System.Windows.Forms.Padding(3)
+        Me.LionGate.Size = New System.Drawing.Size(1318, 482)
+        Me.LionGate.TabIndex = 1
+        Me.LionGate.Text = "Lion Gate"
+        Me.LionGate.UseVisualStyleBackColor = True
+        '
+        'DennisSciama
+        '
+        Me.DennisSciama.Location = New System.Drawing.Point(4, 46)
+        Me.DennisSciama.Name = "DennisSciama"
+        Me.DennisSciama.Size = New System.Drawing.Size(1318, 482)
+        Me.DennisSciama.TabIndex = 2
+        Me.DennisSciama.Text = "Dennis Sciama"
+        Me.DennisSciama.UseVisualStyleBackColor = True
+        '
+        'Richmond
+        '
+        Me.Richmond.Location = New System.Drawing.Point(4, 46)
+        Me.Richmond.Name = "Richmond"
+        Me.Richmond.Size = New System.Drawing.Size(1318, 482)
+        Me.Richmond.TabIndex = 3
+        Me.Richmond.Text = "Richmond"
+        Me.Richmond.UseVisualStyleBackColor = True
+        '
+        'Portland
+        '
+        Me.Portland.Location = New System.Drawing.Point(4, 46)
+        Me.Portland.Name = "Portland"
+        Me.Portland.Size = New System.Drawing.Size(1318, 482)
+        Me.Portland.TabIndex = 4
+        Me.Portland.Text = "Portland"
+        Me.Portland.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
+        Me.ComboBox1.Location = New System.Drawing.Point(977, 158)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(247, 40)
+        Me.ComboBox1.TabIndex = 21
+        '
+        'frmTimetable
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1350, 729)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.btnReturn)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.klojh)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Name = "frmTimetable"
+        Me.Text = "frmTimetable"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents klojh As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents btnReturn As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents Buckingham As TabPage
+    Friend WithEvents LionGate As TabPage
+    Friend WithEvents DennisSciama As TabPage
+    Friend WithEvents Richmond As TabPage
+    Friend WithEvents Portland As TabPage
+    Friend WithEvents ComboBox1 As ComboBox
+End Class
