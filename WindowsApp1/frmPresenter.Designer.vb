@@ -29,9 +29,9 @@ Partial Class frmPresenter
         Me.Presenter = New System.Windows.Forms.GroupBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -91,9 +91,9 @@ Partial Class frmPresenter
         Me.Presenter.Controls.Add(Me.ListBox1)
         Me.Presenter.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Presenter.Location = New System.Drawing.Point(10, 147)
-        Me.Presenter.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Presenter.Margin = New System.Windows.Forms.Padding(2)
         Me.Presenter.Name = "Presenter"
-        Me.Presenter.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Presenter.Padding = New System.Windows.Forms.Padding(2)
         Me.Presenter.Size = New System.Drawing.Size(294, 572)
         Me.Presenter.TabIndex = 20
         Me.Presenter.TabStop = False
@@ -105,7 +105,7 @@ Partial Class frmPresenter
         Me.ListBox1.ItemHeight = 36
         Me.ListBox1.Items.AddRange(New Object() {"Andy Fletcher", "Martin Gore", "Dave Gahan", "Eileen Ekberg", "Rob Top"})
         Me.ListBox1.Location = New System.Drawing.Point(5, 41)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListBox1.Size = New System.Drawing.Size(285, 508)
@@ -119,35 +119,13 @@ Partial Class frmPresenter
         Me.GroupBox2.Controls.Add(Me.PictureBox3)
         Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(309, 147)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Size = New System.Drawing.Size(1032, 572)
         Me.GroupBox2.TabIndex = 21
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Profile"
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(736, 382)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(291, 40)
-        Me.Button1.TabIndex = 22
-        Me.Button1.Text = "View Work"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(736, 328)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(291, 40)
-        Me.Button2.TabIndex = 23
-        Me.Button2.Text = "Personal Website"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -157,9 +135,33 @@ Partial Class frmPresenter
         Me.TextBox1.Size = New System.Drawing.Size(700, 508)
         Me.TextBox1.TabIndex = 24
         '
+        'Button2
+        '
+        Me.Button2.Enabled = False
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(736, 328)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(291, 40)
+        Me.Button2.TabIndex = 23
+        Me.Button2.Text = "Personal Website"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Enabled = False
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(736, 382)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(291, 40)
+        Me.Button1.TabIndex = 22
+        Me.Button1.Text = "View Work"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources.harold
+        Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources.generic
         Me.PictureBox3.Location = New System.Drawing.Point(736, 41)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"

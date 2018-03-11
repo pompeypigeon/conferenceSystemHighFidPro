@@ -29,28 +29,28 @@ Partial Class frmHome
         Me.btnMap = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.klojh = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.lblLoc = New System.Windows.Forms.Label()
         Me.lblTime = New System.Windows.Forms.Label()
         Me.lblNext = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.klojh = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.picHelp = New System.Windows.Forms.PictureBox()
+        Me.picTrans = New System.Windows.Forms.PictureBox()
+        Me.picMap = New System.Windows.Forms.PictureBox()
+        Me.picPre = New System.Windows.Forms.PictureBox()
+        Me.picTime = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picHelp, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picTrans, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picMap, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picPre, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -146,72 +146,6 @@ Partial Class frmHome
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Quick Information"
         '
-        'klojh
-        '
-        Me.klojh.BackColor = System.Drawing.Color.RoyalBlue
-        Me.klojh.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.klojh.Location = New System.Drawing.Point(465, 0)
-        Me.klojh.Name = "klojh"
-        Me.klojh.Size = New System.Drawing.Size(885, 141)
-        Me.klojh.TabIndex = 10
-        Me.klojh.Text = "Main Menu"
-        Me.klojh.TextAlign = System.Drawing.ContentAlignment.BottomRight
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(854, 9)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(86, 32)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Label3"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(1111, 9)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(86, 32)
-        Me.Label2.TabIndex = 13
-        Me.Label2.Text = "Label2"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(26, 43)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(173, 32)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Next session: "
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(113, 85)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(78, 32)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Time:"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(66, 126)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(120, 32)
-        Me.Label6.TabIndex = 2
-        Me.Label6.Text = "Location:"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'lblLoc
         '
         Me.lblLoc.AutoSize = True
@@ -245,60 +179,126 @@ Partial Class frmHome
         Me.lblNext.Text = "Next session: "
         Me.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'PictureBox7
+        'Label6
         '
-        Me.PictureBox7.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox7.Image = Global.WindowsApp1.My.Resources.Resources.hmm
-        Me.PictureBox7.Location = New System.Drawing.Point(568, 484)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(214, 197)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 18
-        Me.PictureBox7.TabStop = False
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(66, 126)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(120, 32)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Location:"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'PictureBox6
+        'Label5
         '
-        Me.PictureBox6.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox6.Image = Global.WindowsApp1.My.Resources.Resources.bus
-        Me.PictureBox6.Location = New System.Drawing.Point(133, 484)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(214, 197)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 17
-        Me.PictureBox6.TabStop = False
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(113, 85)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(78, 32)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "Time:"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'PictureBox5
+        'Label4
         '
-        Me.PictureBox5.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox5.Image = Global.WindowsApp1.My.Resources.Resources.map
-        Me.PictureBox5.Location = New System.Drawing.Point(133, 233)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(214, 197)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 16
-        Me.PictureBox5.TabStop = False
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(26, 43)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(173, 32)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "Next session: "
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'PictureBox4
+        'klojh
         '
-        Me.PictureBox4.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox4.Image = Global.WindowsApp1.My.Resources.Resources.speaker
-        Me.PictureBox4.Location = New System.Drawing.Point(1014, 233)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(188, 197)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 15
-        Me.PictureBox4.TabStop = False
+        Me.klojh.BackColor = System.Drawing.Color.RoyalBlue
+        Me.klojh.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.klojh.Location = New System.Drawing.Point(465, 0)
+        Me.klojh.Name = "klojh"
+        Me.klojh.Size = New System.Drawing.Size(885, 141)
+        Me.klojh.TabIndex = 10
+        Me.klojh.Text = "Main Menu"
+        Me.klojh.TextAlign = System.Drawing.ContentAlignment.BottomRight
         '
-        'PictureBox3
+        'Label3
         '
-        Me.PictureBox3.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources.table
-        Me.PictureBox3.Location = New System.Drawing.Point(568, 233)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(214, 197)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 14
-        Me.PictureBox3.TabStop = False
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(854, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(86, 32)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "Label3"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1111, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(86, 32)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "Label2"
+        '
+        'picHelp
+        '
+        Me.picHelp.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.picHelp.Image = Global.WindowsApp1.My.Resources.Resources.hmm
+        Me.picHelp.Location = New System.Drawing.Point(568, 484)
+        Me.picHelp.Name = "picHelp"
+        Me.picHelp.Size = New System.Drawing.Size(214, 197)
+        Me.picHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picHelp.TabIndex = 18
+        Me.picHelp.TabStop = False
+        '
+        'picTrans
+        '
+        Me.picTrans.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.picTrans.Image = Global.WindowsApp1.My.Resources.Resources.bus
+        Me.picTrans.Location = New System.Drawing.Point(133, 484)
+        Me.picTrans.Name = "picTrans"
+        Me.picTrans.Size = New System.Drawing.Size(214, 197)
+        Me.picTrans.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTrans.TabIndex = 17
+        Me.picTrans.TabStop = False
+        '
+        'picMap
+        '
+        Me.picMap.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.picMap.Image = Global.WindowsApp1.My.Resources.Resources.map
+        Me.picMap.Location = New System.Drawing.Point(133, 233)
+        Me.picMap.Name = "picMap"
+        Me.picMap.Size = New System.Drawing.Size(214, 197)
+        Me.picMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picMap.TabIndex = 16
+        Me.picMap.TabStop = False
+        '
+        'picPre
+        '
+        Me.picPre.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.picPre.Image = Global.WindowsApp1.My.Resources.Resources.speaker
+        Me.picPre.Location = New System.Drawing.Point(1014, 233)
+        Me.picPre.Name = "picPre"
+        Me.picPre.Size = New System.Drawing.Size(188, 197)
+        Me.picPre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picPre.TabIndex = 15
+        Me.picPre.TabStop = False
+        '
+        'picTime
+        '
+        Me.picTime.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.picTime.Image = Global.WindowsApp1.My.Resources.Resources.table
+        Me.picTime.Location = New System.Drawing.Point(568, 233)
+        Me.picTime.Name = "picTime"
+        Me.picTime.Size = New System.Drawing.Size(214, 197)
+        Me.picTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTime.TabIndex = 14
+        Me.picTime.TabStop = False
         '
         'PictureBox2
         '
@@ -327,11 +327,11 @@ Partial Class frmHome
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1350, 729)
         Me.ControlBox = False
-        Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.picHelp)
+        Me.Controls.Add(Me.picTrans)
+        Me.Controls.Add(Me.picMap)
+        Me.Controls.Add(Me.picPre)
+        Me.Controls.Add(Me.picTime)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.klojh)
@@ -352,11 +352,11 @@ Partial Class frmHome
         Me.Text = "Main menu"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picHelp, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picTrans, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picMap, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picPre, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -382,9 +382,9 @@ Partial Class frmHome
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents picTime As PictureBox
+    Friend WithEvents picPre As PictureBox
+    Friend WithEvents picMap As PictureBox
+    Friend WithEvents picTrans As PictureBox
+    Friend WithEvents picHelp As PictureBox
 End Class

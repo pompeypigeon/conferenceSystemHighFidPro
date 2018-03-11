@@ -173,6 +173,7 @@
     <None Include="Resources\table.png" />
     <None Include="Resources\map.png" />
     <None Include="Resources\hmm.png" />
+    <None Include="Resources\generic.png" />
     <Content Include="stk.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

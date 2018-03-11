@@ -8,4 +8,19 @@
         Hide()
         frmHome.Show()
     End Sub
+
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        Select Case ListBox1.SelectedItem
+            Case "Andy Fletcher"
+                TextBox1.Text = "AF"
+            Case "Martin Gore"
+                TextBox1.Text = "MG"
+            Case "Dave Gahan"
+                TextBox1.Text = "DG"
+            Case "Eileen Ekberg"
+                TextBox1.Text = "EE"
+            Case "Rob Top"
+                TextBox1.Text = "RT"
+        End Select
+    End Sub
 End Class
