@@ -23,13 +23,23 @@ Partial Class frmPresenter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.klojh = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnReturn = New System.Windows.Forms.Button()
+        Me.Presenter = New System.Windows.Forms.GroupBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Presenter.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'klojh
@@ -42,16 +52,6 @@ Partial Class frmPresenter
         Me.klojh.TabIndex = 13
         Me.klojh.Text = "Presenter"
         Me.klojh.TextAlign = System.Drawing.ContentAlignment.BottomRight
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.WindowsApp1.My.Resources.Resources.ECIS_Logo_F_01
-        Me.PictureBox2.Location = New System.Drawing.Point(309, 0)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(157, 141)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 12
-        Me.PictureBox2.TabStop = False
         '
         'Label2
         '
@@ -86,6 +86,88 @@ Partial Class frmPresenter
         Me.btnReturn.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.btnReturn.UseVisualStyleBackColor = True
         '
+        'Presenter
+        '
+        Me.Presenter.Controls.Add(Me.ListBox1)
+        Me.Presenter.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Presenter.Location = New System.Drawing.Point(10, 147)
+        Me.Presenter.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Presenter.Name = "Presenter"
+        Me.Presenter.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Presenter.Size = New System.Drawing.Size(294, 572)
+        Me.Presenter.TabIndex = 20
+        Me.Presenter.TabStop = False
+        Me.Presenter.Text = "Presenter"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 36
+        Me.ListBox1.Items.AddRange(New Object() {"Andy Fletcher", "Martin Gore", "Dave Gahan", "Eileen Ekberg", "Rob Top"})
+        Me.ListBox1.Location = New System.Drawing.Point(5, 41)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListBox1.Size = New System.Drawing.Size(285, 508)
+        Me.ListBox1.TabIndex = 0
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.TextBox1)
+        Me.GroupBox2.Controls.Add(Me.Button2)
+        Me.GroupBox2.Controls.Add(Me.Button1)
+        Me.GroupBox2.Controls.Add(Me.PictureBox3)
+        Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(309, 147)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(1032, 572)
+        Me.GroupBox2.TabIndex = 21
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Profile"
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(736, 382)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(291, 40)
+        Me.Button1.TabIndex = 22
+        Me.Button1.Text = "View Work"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(736, 328)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(291, 40)
+        Me.Button2.TabIndex = 23
+        Me.Button2.Text = "Personal Website"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(15, 41)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(700, 508)
+        Me.TextBox1.TabIndex = 24
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources.harold
+        Me.PictureBox3.Location = New System.Drawing.Point(736, 41)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(291, 274)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources.lin
@@ -96,12 +178,24 @@ Partial Class frmPresenter
         Me.PictureBox1.TabIndex = 18
         Me.PictureBox1.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.WindowsApp1.My.Resources.Resources.ECIS_Logo_F_01
+        Me.PictureBox2.Location = New System.Drawing.Point(309, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(157, 141)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 12
+        Me.PictureBox2.TabStop = False
+        '
         'frmPresenter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1350, 729)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.Presenter)
         Me.Controls.Add(Me.btnReturn)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
@@ -110,8 +204,12 @@ Partial Class frmPresenter
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "frmPresenter"
         Me.Text = "frmPresenter"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Presenter.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -123,4 +221,11 @@ Partial Class frmPresenter
     Friend WithEvents Label3 As Label
     Friend WithEvents btnReturn As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Presenter As GroupBox
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBox1 As TextBox
 End Class

@@ -166,6 +166,13 @@
   <ItemGroup>
     <Content Include="lin.png" />
     <None Include="Resources\ECIS-Logo-F-01.png" />
+    <None Include="Resources\think.png" />
+    <None Include="Resources\harold.png" />
+    <None Include="Resources\bus.png" />
+    <None Include="Resources\speaker.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\map.png" />
+    <None Include="Resources\hmm.png" />
     <Content Include="stk.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
