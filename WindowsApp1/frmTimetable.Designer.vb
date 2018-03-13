@@ -30,39 +30,23 @@ Partial Class frmTimetable
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Buckingham = New System.Windows.Forms.TabPage()
-        Me.LionGate = New System.Windows.Forms.TabPage()
-        Me.DennisSciama = New System.Windows.Forms.TabPage()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
         Me.cbxRoom = New System.Windows.Forms.ComboBox()
-        Me.bm9 = New System.Windows.Forms.Button()
-        Me.tb9 = New System.Windows.Forms.Button()
-        Me.wb9 = New System.Windows.Forms.Button()
-        Me.thb9 = New System.Windows.Forms.Button()
-        Me.fb9 = New System.Windows.Forms.Button()
-        Me.fb10 = New System.Windows.Forms.Button()
-        Me.thb10 = New System.Windows.Forms.Button()
-        Me.wb10 = New System.Windows.Forms.Button()
-        Me.tb10 = New System.Windows.Forms.Button()
-        Me.bm10 = New System.Windows.Forms.Button()
-        Me.fb12 = New System.Windows.Forms.Button()
-        Me.thb12 = New System.Windows.Forms.Button()
-        Me.wb12 = New System.Windows.Forms.Button()
-        Me.tb12 = New System.Windows.Forms.Button()
-        Me.bm12 = New System.Windows.Forms.Button()
-        Me.fb11 = New System.Windows.Forms.Button()
-        Me.thb11 = New System.Windows.Forms.Button()
-        Me.wb11 = New System.Windows.Forms.Button()
-        Me.tb11 = New System.Windows.Forms.Button()
-        Me.bm111 = New System.Windows.Forms.Button()
-        Me.fb14 = New System.Windows.Forms.Button()
-        Me.thb14 = New System.Windows.Forms.Button()
-        Me.wb14 = New System.Windows.Forms.Button()
-        Me.tb14 = New System.Windows.Forms.Button()
-        Me.bm14 = New System.Windows.Forms.Button()
-        Me.fb13 = New System.Windows.Forms.Button()
-        Me.thb13 = New System.Windows.Forms.Button()
-        Me.wb13 = New System.Windows.Forms.Button()
-        Me.tb13 = New System.Windows.Forms.Button()
-        Me.bm13 = New System.Windows.Forms.Button()
+        Me.cbxTrack = New System.Windows.Forms.ComboBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.fb16 = New System.Windows.Forms.Button()
         Me.thb16 = New System.Windows.Forms.Button()
         Me.wb16 = New System.Windows.Forms.Button()
@@ -73,20 +57,41 @@ Partial Class frmTimetable
         Me.wb15 = New System.Windows.Forms.Button()
         Me.tb15 = New System.Windows.Forms.Button()
         Me.bm15 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.cbxTrack = New System.Windows.Forms.ComboBox()
+        Me.fb14 = New System.Windows.Forms.Button()
+        Me.thb14 = New System.Windows.Forms.Button()
+        Me.wb14 = New System.Windows.Forms.Button()
+        Me.tb14 = New System.Windows.Forms.Button()
+        Me.bm14 = New System.Windows.Forms.Button()
+        Me.fb13 = New System.Windows.Forms.Button()
+        Me.thb13 = New System.Windows.Forms.Button()
+        Me.wb13 = New System.Windows.Forms.Button()
+        Me.tb13 = New System.Windows.Forms.Button()
+        Me.bm13 = New System.Windows.Forms.Button()
+        Me.fb12 = New System.Windows.Forms.Button()
+        Me.thb12 = New System.Windows.Forms.Button()
+        Me.wb12 = New System.Windows.Forms.Button()
+        Me.tb12 = New System.Windows.Forms.Button()
+        Me.bm12 = New System.Windows.Forms.Button()
+        Me.fb11 = New System.Windows.Forms.Button()
+        Me.thb11 = New System.Windows.Forms.Button()
+        Me.wb11 = New System.Windows.Forms.Button()
+        Me.tb11 = New System.Windows.Forms.Button()
+        Me.bm111 = New System.Windows.Forms.Button()
+        Me.fb10 = New System.Windows.Forms.Button()
+        Me.thb10 = New System.Windows.Forms.Button()
+        Me.wb10 = New System.Windows.Forms.Button()
+        Me.tb10 = New System.Windows.Forms.Button()
+        Me.bm10 = New System.Windows.Forms.Button()
+        Me.fb9 = New System.Windows.Forms.Button()
+        Me.thb9 = New System.Windows.Forms.Button()
+        Me.wb9 = New System.Windows.Forms.Button()
+        Me.tb9 = New System.Windows.Forms.Button()
+        Me.bm9 = New System.Windows.Forms.Button()
+        Me.LionGate = New System.Windows.Forms.TabPage()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -140,6 +145,11 @@ Partial Class frmTimetable
         Me.Button78 = New System.Windows.Forms.Button()
         Me.Button79 = New System.Windows.Forms.Button()
         Me.Button80 = New System.Windows.Forms.Button()
+        Me.DennisSciama = New System.Windows.Forms.TabPage()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -193,16 +203,6 @@ Partial Class frmTimetable
         Me.Button118 = New System.Windows.Forms.Button()
         Me.Button119 = New System.Windows.Forms.Button()
         Me.Button120 = New System.Windows.Forms.Button()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
@@ -354,138 +354,23 @@ Partial Class frmTimetable
         Me.Buckingham.Text = "Buckingham"
         Me.Buckingham.UseVisualStyleBackColor = True
         '
-        'LionGate
+        'Label43
         '
-        Me.LionGate.Controls.Add(Me.Label44)
-        Me.LionGate.Controls.Add(Me.Label45)
-        Me.LionGate.Controls.Add(Me.ComboBox3)
-        Me.LionGate.Controls.Add(Me.ComboBox4)
-        Me.LionGate.Controls.Add(Me.Label16)
-        Me.LionGate.Controls.Add(Me.Label17)
-        Me.LionGate.Controls.Add(Me.Label18)
-        Me.LionGate.Controls.Add(Me.Label19)
-        Me.LionGate.Controls.Add(Me.Label20)
-        Me.LionGate.Controls.Add(Me.Label21)
-        Me.LionGate.Controls.Add(Me.Label22)
-        Me.LionGate.Controls.Add(Me.Label23)
-        Me.LionGate.Controls.Add(Me.Label24)
-        Me.LionGate.Controls.Add(Me.Label25)
-        Me.LionGate.Controls.Add(Me.Label26)
-        Me.LionGate.Controls.Add(Me.Label27)
-        Me.LionGate.Controls.Add(Me.Label28)
-        Me.LionGate.Controls.Add(Me.Button41)
-        Me.LionGate.Controls.Add(Me.Button42)
-        Me.LionGate.Controls.Add(Me.Button43)
-        Me.LionGate.Controls.Add(Me.Button44)
-        Me.LionGate.Controls.Add(Me.Button45)
-        Me.LionGate.Controls.Add(Me.Button46)
-        Me.LionGate.Controls.Add(Me.Button47)
-        Me.LionGate.Controls.Add(Me.Button48)
-        Me.LionGate.Controls.Add(Me.Button49)
-        Me.LionGate.Controls.Add(Me.Button50)
-        Me.LionGate.Controls.Add(Me.Button51)
-        Me.LionGate.Controls.Add(Me.Button52)
-        Me.LionGate.Controls.Add(Me.Button53)
-        Me.LionGate.Controls.Add(Me.Button54)
-        Me.LionGate.Controls.Add(Me.Button55)
-        Me.LionGate.Controls.Add(Me.Button56)
-        Me.LionGate.Controls.Add(Me.Button57)
-        Me.LionGate.Controls.Add(Me.Button58)
-        Me.LionGate.Controls.Add(Me.Button59)
-        Me.LionGate.Controls.Add(Me.Button60)
-        Me.LionGate.Controls.Add(Me.Button61)
-        Me.LionGate.Controls.Add(Me.Button62)
-        Me.LionGate.Controls.Add(Me.Button63)
-        Me.LionGate.Controls.Add(Me.Button64)
-        Me.LionGate.Controls.Add(Me.Button65)
-        Me.LionGate.Controls.Add(Me.Button66)
-        Me.LionGate.Controls.Add(Me.Button67)
-        Me.LionGate.Controls.Add(Me.Button68)
-        Me.LionGate.Controls.Add(Me.Button69)
-        Me.LionGate.Controls.Add(Me.Button70)
-        Me.LionGate.Controls.Add(Me.Button71)
-        Me.LionGate.Controls.Add(Me.Button72)
-        Me.LionGate.Controls.Add(Me.Button73)
-        Me.LionGate.Controls.Add(Me.Button74)
-        Me.LionGate.Controls.Add(Me.Button75)
-        Me.LionGate.Controls.Add(Me.Button76)
-        Me.LionGate.Controls.Add(Me.Button77)
-        Me.LionGate.Controls.Add(Me.Button78)
-        Me.LionGate.Controls.Add(Me.Button79)
-        Me.LionGate.Controls.Add(Me.Button80)
-        Me.LionGate.Location = New System.Drawing.Point(4, 46)
-        Me.LionGate.Name = "LionGate"
-        Me.LionGate.Padding = New System.Windows.Forms.Padding(3)
-        Me.LionGate.Size = New System.Drawing.Size(1318, 482)
-        Me.LionGate.TabIndex = 1
-        Me.LionGate.Text = "Lion Gate"
-        Me.LionGate.UseVisualStyleBackColor = True
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(445, 25)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(96, 37)
+        Me.Label43.TabIndex = 54
+        Me.Label43.Text = "Room:"
         '
-        'DennisSciama
+        'Label42
         '
-        Me.DennisSciama.Controls.Add(Me.Label46)
-        Me.DennisSciama.Controls.Add(Me.Label47)
-        Me.DennisSciama.Controls.Add(Me.ComboBox5)
-        Me.DennisSciama.Controls.Add(Me.ComboBox6)
-        Me.DennisSciama.Controls.Add(Me.Label29)
-        Me.DennisSciama.Controls.Add(Me.Label30)
-        Me.DennisSciama.Controls.Add(Me.Label31)
-        Me.DennisSciama.Controls.Add(Me.Label32)
-        Me.DennisSciama.Controls.Add(Me.Label33)
-        Me.DennisSciama.Controls.Add(Me.Label34)
-        Me.DennisSciama.Controls.Add(Me.Label35)
-        Me.DennisSciama.Controls.Add(Me.Label36)
-        Me.DennisSciama.Controls.Add(Me.Label37)
-        Me.DennisSciama.Controls.Add(Me.Label38)
-        Me.DennisSciama.Controls.Add(Me.Label39)
-        Me.DennisSciama.Controls.Add(Me.Label40)
-        Me.DennisSciama.Controls.Add(Me.Label41)
-        Me.DennisSciama.Controls.Add(Me.Button81)
-        Me.DennisSciama.Controls.Add(Me.Button82)
-        Me.DennisSciama.Controls.Add(Me.Button83)
-        Me.DennisSciama.Controls.Add(Me.Button84)
-        Me.DennisSciama.Controls.Add(Me.Button85)
-        Me.DennisSciama.Controls.Add(Me.Button86)
-        Me.DennisSciama.Controls.Add(Me.Button87)
-        Me.DennisSciama.Controls.Add(Me.Button88)
-        Me.DennisSciama.Controls.Add(Me.Button89)
-        Me.DennisSciama.Controls.Add(Me.Button90)
-        Me.DennisSciama.Controls.Add(Me.Button91)
-        Me.DennisSciama.Controls.Add(Me.Button92)
-        Me.DennisSciama.Controls.Add(Me.Button93)
-        Me.DennisSciama.Controls.Add(Me.Button94)
-        Me.DennisSciama.Controls.Add(Me.Button95)
-        Me.DennisSciama.Controls.Add(Me.Button96)
-        Me.DennisSciama.Controls.Add(Me.Button97)
-        Me.DennisSciama.Controls.Add(Me.Button98)
-        Me.DennisSciama.Controls.Add(Me.Button99)
-        Me.DennisSciama.Controls.Add(Me.Button100)
-        Me.DennisSciama.Controls.Add(Me.Button101)
-        Me.DennisSciama.Controls.Add(Me.Button102)
-        Me.DennisSciama.Controls.Add(Me.Button103)
-        Me.DennisSciama.Controls.Add(Me.Button104)
-        Me.DennisSciama.Controls.Add(Me.Button105)
-        Me.DennisSciama.Controls.Add(Me.Button106)
-        Me.DennisSciama.Controls.Add(Me.Button107)
-        Me.DennisSciama.Controls.Add(Me.Button108)
-        Me.DennisSciama.Controls.Add(Me.Button109)
-        Me.DennisSciama.Controls.Add(Me.Button110)
-        Me.DennisSciama.Controls.Add(Me.Button111)
-        Me.DennisSciama.Controls.Add(Me.Button112)
-        Me.DennisSciama.Controls.Add(Me.Button113)
-        Me.DennisSciama.Controls.Add(Me.Button114)
-        Me.DennisSciama.Controls.Add(Me.Button115)
-        Me.DennisSciama.Controls.Add(Me.Button116)
-        Me.DennisSciama.Controls.Add(Me.Button117)
-        Me.DennisSciama.Controls.Add(Me.Button118)
-        Me.DennisSciama.Controls.Add(Me.Button119)
-        Me.DennisSciama.Controls.Add(Me.Button120)
-        Me.DennisSciama.Location = New System.Drawing.Point(4, 46)
-        Me.DennisSciama.Name = "DennisSciama"
-        Me.DennisSciama.Size = New System.Drawing.Size(1318, 482)
-        Me.DennisSciama.TabIndex = 2
-        Me.DennisSciama.Text = "Dennis Sciama"
-        Me.DennisSciama.UseVisualStyleBackColor = True
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(827, 22)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(173, 37)
+        Me.Label42.TabIndex = 53
+        Me.Label42.Text = "Track theme:"
         '
         'cbxRoom
         '
@@ -497,275 +382,140 @@ Partial Class frmTimetable
         Me.cbxRoom.Size = New System.Drawing.Size(247, 40)
         Me.cbxRoom.TabIndex = 21
         '
-        'bm9
+        'cbxTrack
         '
-        Me.bm9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm9.Location = New System.Drawing.Point(163, 117)
-        Me.bm9.Name = "bm9"
-        Me.bm9.Size = New System.Drawing.Size(213, 31)
-        Me.bm9.TabIndex = 0
-        Me.bm9.UseVisualStyleBackColor = True
+        Me.cbxTrack.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbxTrack.FormattingEnabled = True
+        Me.cbxTrack.Items.AddRange(New Object() {"Security of IoT", "Quantum Computing", "Mathmatics", "Statistics", "Wireless Security"})
+        Me.cbxTrack.Location = New System.Drawing.Point(1006, 19)
+        Me.cbxTrack.Name = "cbxTrack"
+        Me.cbxTrack.Size = New System.Drawing.Size(247, 40)
+        Me.cbxTrack.TabIndex = 22
         '
-        'tb9
+        'Label12
         '
-        Me.tb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb9.Location = New System.Drawing.Point(382, 117)
-        Me.tb9.Name = "tb9"
-        Me.tb9.Size = New System.Drawing.Size(213, 31)
-        Me.tb9.TabIndex = 1
-        Me.tb9.UseVisualStyleBackColor = True
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(28, 367)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(131, 30)
+        Me.Label12.TabIndex = 52
+        Me.Label12.Text = "16:00 - 17:00"
         '
-        'wb9
+        'Label13
         '
-        Me.wb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb9.Location = New System.Drawing.Point(601, 117)
-        Me.wb9.Name = "wb9"
-        Me.wb9.Size = New System.Drawing.Size(213, 31)
-        Me.wb9.TabIndex = 2
-        Me.wb9.UseVisualStyleBackColor = True
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(28, 332)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(131, 30)
+        Me.Label13.TabIndex = 51
+        Me.Label13.Text = "15:00 - 16:00"
         '
-        'thb9
+        'Label14
         '
-        Me.thb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb9.Location = New System.Drawing.Point(820, 117)
-        Me.thb9.Name = "thb9"
-        Me.thb9.Size = New System.Drawing.Size(213, 31)
-        Me.thb9.TabIndex = 3
-        Me.thb9.UseVisualStyleBackColor = True
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(28, 294)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(131, 30)
+        Me.Label14.TabIndex = 50
+        Me.Label14.Text = "14:00 - 15:00"
         '
-        'fb9
+        'Label15
         '
-        Me.fb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb9.Location = New System.Drawing.Point(1039, 117)
-        Me.fb9.Name = "fb9"
-        Me.fb9.Size = New System.Drawing.Size(213, 31)
-        Me.fb9.TabIndex = 4
-        Me.fb9.UseVisualStyleBackColor = True
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(28, 259)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(131, 30)
+        Me.Label15.TabIndex = 49
+        Me.Label15.Text = "13:00 - 14:00"
         '
-        'fb10
+        'Label10
         '
-        Me.fb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb10.Location = New System.Drawing.Point(1039, 152)
-        Me.fb10.Name = "fb10"
-        Me.fb10.Size = New System.Drawing.Size(213, 31)
-        Me.fb10.TabIndex = 9
-        Me.fb10.UseVisualStyleBackColor = True
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(28, 223)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(131, 30)
+        Me.Label10.TabIndex = 48
+        Me.Label10.Text = "12:00 - 13:00"
         '
-        'thb10
+        'Label11
         '
-        Me.thb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb10.Location = New System.Drawing.Point(820, 152)
-        Me.thb10.Name = "thb10"
-        Me.thb10.Size = New System.Drawing.Size(213, 31)
-        Me.thb10.TabIndex = 8
-        Me.thb10.UseVisualStyleBackColor = True
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(28, 188)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(131, 30)
+        Me.Label11.TabIndex = 47
+        Me.Label11.Text = "11:00 - 12:00"
         '
-        'wb10
+        'Label9
         '
-        Me.wb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb10.Location = New System.Drawing.Point(601, 152)
-        Me.wb10.Name = "wb10"
-        Me.wb10.Size = New System.Drawing.Size(213, 31)
-        Me.wb10.TabIndex = 7
-        Me.wb10.UseVisualStyleBackColor = True
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(26, 153)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(131, 30)
+        Me.Label9.TabIndex = 46
+        Me.Label9.Text = "10:00 - 11:00"
         '
-        'tb10
+        'Label8
         '
-        Me.tb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb10.Location = New System.Drawing.Point(382, 152)
-        Me.tb10.Name = "tb10"
-        Me.tb10.Size = New System.Drawing.Size(213, 31)
-        Me.tb10.TabIndex = 6
-        Me.tb10.UseVisualStyleBackColor = True
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(37, 118)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(120, 30)
+        Me.Label8.TabIndex = 45
+        Me.Label8.Text = "9:00 - 10:00"
         '
-        'bm10
+        'Label7
         '
-        Me.bm10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm10.Location = New System.Drawing.Point(163, 152)
-        Me.bm10.Name = "bm10"
-        Me.bm10.Size = New System.Drawing.Size(213, 31)
-        Me.bm10.TabIndex = 5
-        Me.bm10.UseVisualStyleBackColor = True
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(1100, 77)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(92, 37)
+        Me.Label7.TabIndex = 44
+        Me.Label7.Text = "Friday"
         '
-        'fb12
+        'Label6
         '
-        Me.fb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb12.Location = New System.Drawing.Point(1039, 223)
-        Me.fb12.Name = "fb12"
-        Me.fb12.Size = New System.Drawing.Size(213, 31)
-        Me.fb12.TabIndex = 19
-        Me.fb12.UseVisualStyleBackColor = True
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(862, 77)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(130, 37)
+        Me.Label6.TabIndex = 43
+        Me.Label6.Text = "Thursday"
         '
-        'thb12
+        'Label5
         '
-        Me.thb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb12.Location = New System.Drawing.Point(820, 223)
-        Me.thb12.Name = "thb12"
-        Me.thb12.Size = New System.Drawing.Size(213, 31)
-        Me.thb12.TabIndex = 18
-        Me.thb12.UseVisualStyleBackColor = True
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(626, 77)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(158, 37)
+        Me.Label5.TabIndex = 42
+        Me.Label5.Text = "Wednesday"
         '
-        'wb12
+        'Label4
         '
-        Me.wb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb12.Location = New System.Drawing.Point(601, 223)
-        Me.wb12.Name = "wb12"
-        Me.wb12.Size = New System.Drawing.Size(213, 31)
-        Me.wb12.TabIndex = 17
-        Me.wb12.UseVisualStyleBackColor = True
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(433, 77)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(116, 37)
+        Me.Label4.TabIndex = 41
+        Me.Label4.Text = "Tuesday"
         '
-        'tb12
+        'Label1
         '
-        Me.tb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb12.Location = New System.Drawing.Point(382, 223)
-        Me.tb12.Name = "tb12"
-        Me.tb12.Size = New System.Drawing.Size(213, 31)
-        Me.tb12.TabIndex = 16
-        Me.tb12.UseVisualStyleBackColor = True
-        '
-        'bm12
-        '
-        Me.bm12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm12.Location = New System.Drawing.Point(163, 223)
-        Me.bm12.Name = "bm12"
-        Me.bm12.Size = New System.Drawing.Size(213, 31)
-        Me.bm12.TabIndex = 15
-        Me.bm12.UseVisualStyleBackColor = True
-        '
-        'fb11
-        '
-        Me.fb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb11.Location = New System.Drawing.Point(1039, 188)
-        Me.fb11.Name = "fb11"
-        Me.fb11.Size = New System.Drawing.Size(213, 31)
-        Me.fb11.TabIndex = 14
-        Me.fb11.UseVisualStyleBackColor = True
-        '
-        'thb11
-        '
-        Me.thb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb11.Location = New System.Drawing.Point(820, 188)
-        Me.thb11.Name = "thb11"
-        Me.thb11.Size = New System.Drawing.Size(213, 31)
-        Me.thb11.TabIndex = 13
-        Me.thb11.UseVisualStyleBackColor = True
-        '
-        'wb11
-        '
-        Me.wb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb11.Location = New System.Drawing.Point(601, 188)
-        Me.wb11.Name = "wb11"
-        Me.wb11.Size = New System.Drawing.Size(213, 31)
-        Me.wb11.TabIndex = 12
-        Me.wb11.UseVisualStyleBackColor = True
-        '
-        'tb11
-        '
-        Me.tb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb11.Location = New System.Drawing.Point(382, 188)
-        Me.tb11.Name = "tb11"
-        Me.tb11.Size = New System.Drawing.Size(213, 31)
-        Me.tb11.TabIndex = 11
-        Me.tb11.UseVisualStyleBackColor = True
-        '
-        'bm111
-        '
-        Me.bm111.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm111.Location = New System.Drawing.Point(163, 188)
-        Me.bm111.Name = "bm111"
-        Me.bm111.Size = New System.Drawing.Size(213, 31)
-        Me.bm111.TabIndex = 10
-        Me.bm111.UseVisualStyleBackColor = True
-        '
-        'fb14
-        '
-        Me.fb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb14.Location = New System.Drawing.Point(1039, 295)
-        Me.fb14.Name = "fb14"
-        Me.fb14.Size = New System.Drawing.Size(213, 31)
-        Me.fb14.TabIndex = 29
-        Me.fb14.UseVisualStyleBackColor = True
-        '
-        'thb14
-        '
-        Me.thb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb14.Location = New System.Drawing.Point(820, 295)
-        Me.thb14.Name = "thb14"
-        Me.thb14.Size = New System.Drawing.Size(213, 31)
-        Me.thb14.TabIndex = 28
-        Me.thb14.UseVisualStyleBackColor = True
-        '
-        'wb14
-        '
-        Me.wb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb14.Location = New System.Drawing.Point(601, 295)
-        Me.wb14.Name = "wb14"
-        Me.wb14.Size = New System.Drawing.Size(213, 31)
-        Me.wb14.TabIndex = 27
-        Me.wb14.UseVisualStyleBackColor = True
-        '
-        'tb14
-        '
-        Me.tb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb14.Location = New System.Drawing.Point(382, 295)
-        Me.tb14.Name = "tb14"
-        Me.tb14.Size = New System.Drawing.Size(213, 31)
-        Me.tb14.TabIndex = 26
-        Me.tb14.UseVisualStyleBackColor = True
-        '
-        'bm14
-        '
-        Me.bm14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm14.Location = New System.Drawing.Point(163, 295)
-        Me.bm14.Name = "bm14"
-        Me.bm14.Size = New System.Drawing.Size(213, 31)
-        Me.bm14.TabIndex = 25
-        Me.bm14.UseVisualStyleBackColor = True
-        '
-        'fb13
-        '
-        Me.fb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fb13.Location = New System.Drawing.Point(1039, 259)
-        Me.fb13.Name = "fb13"
-        Me.fb13.Size = New System.Drawing.Size(213, 31)
-        Me.fb13.TabIndex = 24
-        Me.fb13.UseVisualStyleBackColor = True
-        '
-        'thb13
-        '
-        Me.thb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thb13.Location = New System.Drawing.Point(820, 259)
-        Me.thb13.Name = "thb13"
-        Me.thb13.Size = New System.Drawing.Size(213, 31)
-        Me.thb13.TabIndex = 23
-        Me.thb13.UseVisualStyleBackColor = True
-        '
-        'wb13
-        '
-        Me.wb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.wb13.Location = New System.Drawing.Point(601, 259)
-        Me.wb13.Name = "wb13"
-        Me.wb13.Size = New System.Drawing.Size(213, 31)
-        Me.wb13.TabIndex = 22
-        Me.wb13.UseVisualStyleBackColor = True
-        '
-        'tb13
-        '
-        Me.tb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tb13.Location = New System.Drawing.Point(382, 259)
-        Me.tb13.Name = "tb13"
-        Me.tb13.Size = New System.Drawing.Size(213, 31)
-        Me.tb13.TabIndex = 21
-        Me.tb13.UseVisualStyleBackColor = True
-        '
-        'bm13
-        '
-        Me.bm13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bm13.Location = New System.Drawing.Point(163, 259)
-        Me.bm13.Name = "bm13"
-        Me.bm13.Size = New System.Drawing.Size(213, 31)
-        Me.bm13.TabIndex = 20
-        Me.bm13.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(209, 77)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(118, 37)
+        Me.Label1.TabIndex = 40
+        Me.Label1.Text = "Monday"
         '
         'fb16
         '
@@ -857,140 +607,380 @@ Partial Class frmTimetable
         Me.bm15.TabIndex = 30
         Me.bm15.UseVisualStyleBackColor = True
         '
-        'Label1
+        'fb14
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(209, 77)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 37)
-        Me.Label1.TabIndex = 40
-        Me.Label1.Text = "Monday"
+        Me.fb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb14.Location = New System.Drawing.Point(1039, 295)
+        Me.fb14.Name = "fb14"
+        Me.fb14.Size = New System.Drawing.Size(213, 31)
+        Me.fb14.TabIndex = 29
+        Me.fb14.UseVisualStyleBackColor = True
         '
-        'Label4
+        'thb14
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(433, 77)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(116, 37)
-        Me.Label4.TabIndex = 41
-        Me.Label4.Text = "Tuesday"
+        Me.thb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb14.Location = New System.Drawing.Point(820, 295)
+        Me.thb14.Name = "thb14"
+        Me.thb14.Size = New System.Drawing.Size(213, 31)
+        Me.thb14.TabIndex = 28
+        Me.thb14.UseVisualStyleBackColor = True
         '
-        'Label5
+        'wb14
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(626, 77)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(158, 37)
-        Me.Label5.TabIndex = 42
-        Me.Label5.Text = "Wednesday"
+        Me.wb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb14.Location = New System.Drawing.Point(601, 295)
+        Me.wb14.Name = "wb14"
+        Me.wb14.Size = New System.Drawing.Size(213, 31)
+        Me.wb14.TabIndex = 27
+        Me.wb14.UseVisualStyleBackColor = True
         '
-        'Label6
+        'tb14
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(862, 77)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(130, 37)
-        Me.Label6.TabIndex = 43
-        Me.Label6.Text = "Thursday"
+        Me.tb14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb14.Location = New System.Drawing.Point(382, 295)
+        Me.tb14.Name = "tb14"
+        Me.tb14.Size = New System.Drawing.Size(213, 31)
+        Me.tb14.TabIndex = 26
+        Me.tb14.UseVisualStyleBackColor = True
         '
-        'Label7
+        'bm14
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(1100, 77)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(92, 37)
-        Me.Label7.TabIndex = 44
-        Me.Label7.Text = "Friday"
+        Me.bm14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm14.Location = New System.Drawing.Point(163, 295)
+        Me.bm14.Name = "bm14"
+        Me.bm14.Size = New System.Drawing.Size(213, 31)
+        Me.bm14.TabIndex = 25
+        Me.bm14.UseVisualStyleBackColor = True
         '
-        'Label8
+        'fb13
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(37, 118)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(120, 30)
-        Me.Label8.TabIndex = 45
-        Me.Label8.Text = "9:00 - 10:00"
+        Me.fb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb13.Location = New System.Drawing.Point(1039, 259)
+        Me.fb13.Name = "fb13"
+        Me.fb13.Size = New System.Drawing.Size(213, 31)
+        Me.fb13.TabIndex = 24
+        Me.fb13.UseVisualStyleBackColor = True
         '
-        'Label9
+        'thb13
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(26, 153)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(131, 30)
-        Me.Label9.TabIndex = 46
-        Me.Label9.Text = "10:00 - 11:00"
+        Me.thb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb13.Location = New System.Drawing.Point(820, 259)
+        Me.thb13.Name = "thb13"
+        Me.thb13.Size = New System.Drawing.Size(213, 31)
+        Me.thb13.TabIndex = 23
+        Me.thb13.UseVisualStyleBackColor = True
         '
-        'Label10
+        'wb13
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(28, 223)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(131, 30)
-        Me.Label10.TabIndex = 48
-        Me.Label10.Text = "12:00 - 13:00"
+        Me.wb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb13.Location = New System.Drawing.Point(601, 259)
+        Me.wb13.Name = "wb13"
+        Me.wb13.Size = New System.Drawing.Size(213, 31)
+        Me.wb13.TabIndex = 22
+        Me.wb13.UseVisualStyleBackColor = True
         '
-        'Label11
+        'tb13
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(28, 188)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(131, 30)
-        Me.Label11.TabIndex = 47
-        Me.Label11.Text = "11:00 - 12:00"
+        Me.tb13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb13.Location = New System.Drawing.Point(382, 259)
+        Me.tb13.Name = "tb13"
+        Me.tb13.Size = New System.Drawing.Size(213, 31)
+        Me.tb13.TabIndex = 21
+        Me.tb13.UseVisualStyleBackColor = True
         '
-        'Label12
+        'bm13
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(28, 367)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(131, 30)
-        Me.Label12.TabIndex = 52
-        Me.Label12.Text = "16:00 - 17:00"
+        Me.bm13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm13.Location = New System.Drawing.Point(163, 259)
+        Me.bm13.Name = "bm13"
+        Me.bm13.Size = New System.Drawing.Size(213, 31)
+        Me.bm13.TabIndex = 20
+        Me.bm13.UseVisualStyleBackColor = True
         '
-        'Label13
+        'fb12
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(28, 332)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(131, 30)
-        Me.Label13.TabIndex = 51
-        Me.Label13.Text = "15:00 - 16:00"
+        Me.fb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb12.Location = New System.Drawing.Point(1039, 223)
+        Me.fb12.Name = "fb12"
+        Me.fb12.Size = New System.Drawing.Size(213, 31)
+        Me.fb12.TabIndex = 19
+        Me.fb12.UseVisualStyleBackColor = True
         '
-        'Label14
+        'thb12
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(28, 294)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(131, 30)
-        Me.Label14.TabIndex = 50
-        Me.Label14.Text = "14:00 - 15:00"
+        Me.thb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb12.Location = New System.Drawing.Point(820, 223)
+        Me.thb12.Name = "thb12"
+        Me.thb12.Size = New System.Drawing.Size(213, 31)
+        Me.thb12.TabIndex = 18
+        Me.thb12.UseVisualStyleBackColor = True
         '
-        'Label15
+        'wb12
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(28, 259)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(131, 30)
-        Me.Label15.TabIndex = 49
-        Me.Label15.Text = "13:00 - 14:00"
+        Me.wb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb12.Location = New System.Drawing.Point(601, 223)
+        Me.wb12.Name = "wb12"
+        Me.wb12.Size = New System.Drawing.Size(213, 31)
+        Me.wb12.TabIndex = 17
+        Me.wb12.UseVisualStyleBackColor = True
         '
-        'cbxTrack
+        'tb12
         '
-        Me.cbxTrack.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbxTrack.FormattingEnabled = True
-        Me.cbxTrack.Items.AddRange(New Object() {"Security of IoT", "Quantum Computing", "Mathmatics", "Statistics", "Wireless Security"})
-        Me.cbxTrack.Location = New System.Drawing.Point(1006, 19)
-        Me.cbxTrack.Name = "cbxTrack"
-        Me.cbxTrack.Size = New System.Drawing.Size(247, 40)
-        Me.cbxTrack.TabIndex = 22
+        Me.tb12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb12.Location = New System.Drawing.Point(382, 223)
+        Me.tb12.Name = "tb12"
+        Me.tb12.Size = New System.Drawing.Size(213, 31)
+        Me.tb12.TabIndex = 16
+        Me.tb12.UseVisualStyleBackColor = True
+        '
+        'bm12
+        '
+        Me.bm12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm12.Location = New System.Drawing.Point(163, 223)
+        Me.bm12.Name = "bm12"
+        Me.bm12.Size = New System.Drawing.Size(213, 31)
+        Me.bm12.TabIndex = 15
+        Me.bm12.UseVisualStyleBackColor = True
+        '
+        'fb11
+        '
+        Me.fb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb11.Location = New System.Drawing.Point(1039, 188)
+        Me.fb11.Name = "fb11"
+        Me.fb11.Size = New System.Drawing.Size(213, 31)
+        Me.fb11.TabIndex = 14
+        Me.fb11.UseVisualStyleBackColor = True
+        '
+        'thb11
+        '
+        Me.thb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb11.Location = New System.Drawing.Point(820, 188)
+        Me.thb11.Name = "thb11"
+        Me.thb11.Size = New System.Drawing.Size(213, 31)
+        Me.thb11.TabIndex = 13
+        Me.thb11.UseVisualStyleBackColor = True
+        '
+        'wb11
+        '
+        Me.wb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb11.Location = New System.Drawing.Point(601, 188)
+        Me.wb11.Name = "wb11"
+        Me.wb11.Size = New System.Drawing.Size(213, 31)
+        Me.wb11.TabIndex = 12
+        Me.wb11.UseVisualStyleBackColor = True
+        '
+        'tb11
+        '
+        Me.tb11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb11.Location = New System.Drawing.Point(382, 188)
+        Me.tb11.Name = "tb11"
+        Me.tb11.Size = New System.Drawing.Size(213, 31)
+        Me.tb11.TabIndex = 11
+        Me.tb11.UseVisualStyleBackColor = True
+        '
+        'bm111
+        '
+        Me.bm111.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm111.Location = New System.Drawing.Point(163, 188)
+        Me.bm111.Name = "bm111"
+        Me.bm111.Size = New System.Drawing.Size(213, 31)
+        Me.bm111.TabIndex = 10
+        Me.bm111.UseVisualStyleBackColor = True
+        '
+        'fb10
+        '
+        Me.fb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb10.Location = New System.Drawing.Point(1039, 152)
+        Me.fb10.Name = "fb10"
+        Me.fb10.Size = New System.Drawing.Size(213, 31)
+        Me.fb10.TabIndex = 9
+        Me.fb10.UseVisualStyleBackColor = True
+        '
+        'thb10
+        '
+        Me.thb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb10.Location = New System.Drawing.Point(820, 152)
+        Me.thb10.Name = "thb10"
+        Me.thb10.Size = New System.Drawing.Size(213, 31)
+        Me.thb10.TabIndex = 8
+        Me.thb10.UseVisualStyleBackColor = True
+        '
+        'wb10
+        '
+        Me.wb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb10.Location = New System.Drawing.Point(601, 152)
+        Me.wb10.Name = "wb10"
+        Me.wb10.Size = New System.Drawing.Size(213, 31)
+        Me.wb10.TabIndex = 7
+        Me.wb10.UseVisualStyleBackColor = True
+        '
+        'tb10
+        '
+        Me.tb10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb10.Location = New System.Drawing.Point(382, 152)
+        Me.tb10.Name = "tb10"
+        Me.tb10.Size = New System.Drawing.Size(213, 31)
+        Me.tb10.TabIndex = 6
+        Me.tb10.UseVisualStyleBackColor = True
+        '
+        'bm10
+        '
+        Me.bm10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm10.Location = New System.Drawing.Point(163, 152)
+        Me.bm10.Name = "bm10"
+        Me.bm10.Size = New System.Drawing.Size(213, 31)
+        Me.bm10.TabIndex = 5
+        Me.bm10.UseVisualStyleBackColor = True
+        '
+        'fb9
+        '
+        Me.fb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fb9.Location = New System.Drawing.Point(1039, 117)
+        Me.fb9.Name = "fb9"
+        Me.fb9.Size = New System.Drawing.Size(213, 31)
+        Me.fb9.TabIndex = 4
+        Me.fb9.UseVisualStyleBackColor = True
+        '
+        'thb9
+        '
+        Me.thb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thb9.Location = New System.Drawing.Point(820, 117)
+        Me.thb9.Name = "thb9"
+        Me.thb9.Size = New System.Drawing.Size(213, 31)
+        Me.thb9.TabIndex = 3
+        Me.thb9.UseVisualStyleBackColor = True
+        '
+        'wb9
+        '
+        Me.wb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wb9.Location = New System.Drawing.Point(601, 117)
+        Me.wb9.Name = "wb9"
+        Me.wb9.Size = New System.Drawing.Size(213, 31)
+        Me.wb9.TabIndex = 2
+        Me.wb9.UseVisualStyleBackColor = True
+        '
+        'tb9
+        '
+        Me.tb9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb9.Location = New System.Drawing.Point(382, 117)
+        Me.tb9.Name = "tb9"
+        Me.tb9.Size = New System.Drawing.Size(213, 31)
+        Me.tb9.TabIndex = 1
+        Me.tb9.UseVisualStyleBackColor = True
+        '
+        'bm9
+        '
+        Me.bm9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bm9.Location = New System.Drawing.Point(163, 117)
+        Me.bm9.Name = "bm9"
+        Me.bm9.Size = New System.Drawing.Size(213, 31)
+        Me.bm9.TabIndex = 0
+        Me.bm9.UseVisualStyleBackColor = True
+        '
+        'LionGate
+        '
+        Me.LionGate.Controls.Add(Me.Label44)
+        Me.LionGate.Controls.Add(Me.Label45)
+        Me.LionGate.Controls.Add(Me.ComboBox3)
+        Me.LionGate.Controls.Add(Me.ComboBox4)
+        Me.LionGate.Controls.Add(Me.Label16)
+        Me.LionGate.Controls.Add(Me.Label17)
+        Me.LionGate.Controls.Add(Me.Label18)
+        Me.LionGate.Controls.Add(Me.Label19)
+        Me.LionGate.Controls.Add(Me.Label20)
+        Me.LionGate.Controls.Add(Me.Label21)
+        Me.LionGate.Controls.Add(Me.Label22)
+        Me.LionGate.Controls.Add(Me.Label23)
+        Me.LionGate.Controls.Add(Me.Label24)
+        Me.LionGate.Controls.Add(Me.Label25)
+        Me.LionGate.Controls.Add(Me.Label26)
+        Me.LionGate.Controls.Add(Me.Label27)
+        Me.LionGate.Controls.Add(Me.Label28)
+        Me.LionGate.Controls.Add(Me.Button41)
+        Me.LionGate.Controls.Add(Me.Button42)
+        Me.LionGate.Controls.Add(Me.Button43)
+        Me.LionGate.Controls.Add(Me.Button44)
+        Me.LionGate.Controls.Add(Me.Button45)
+        Me.LionGate.Controls.Add(Me.Button46)
+        Me.LionGate.Controls.Add(Me.Button47)
+        Me.LionGate.Controls.Add(Me.Button48)
+        Me.LionGate.Controls.Add(Me.Button49)
+        Me.LionGate.Controls.Add(Me.Button50)
+        Me.LionGate.Controls.Add(Me.Button51)
+        Me.LionGate.Controls.Add(Me.Button52)
+        Me.LionGate.Controls.Add(Me.Button53)
+        Me.LionGate.Controls.Add(Me.Button54)
+        Me.LionGate.Controls.Add(Me.Button55)
+        Me.LionGate.Controls.Add(Me.Button56)
+        Me.LionGate.Controls.Add(Me.Button57)
+        Me.LionGate.Controls.Add(Me.Button58)
+        Me.LionGate.Controls.Add(Me.Button59)
+        Me.LionGate.Controls.Add(Me.Button60)
+        Me.LionGate.Controls.Add(Me.Button61)
+        Me.LionGate.Controls.Add(Me.Button62)
+        Me.LionGate.Controls.Add(Me.Button63)
+        Me.LionGate.Controls.Add(Me.Button64)
+        Me.LionGate.Controls.Add(Me.Button65)
+        Me.LionGate.Controls.Add(Me.Button66)
+        Me.LionGate.Controls.Add(Me.Button67)
+        Me.LionGate.Controls.Add(Me.Button68)
+        Me.LionGate.Controls.Add(Me.Button69)
+        Me.LionGate.Controls.Add(Me.Button70)
+        Me.LionGate.Controls.Add(Me.Button71)
+        Me.LionGate.Controls.Add(Me.Button72)
+        Me.LionGate.Controls.Add(Me.Button73)
+        Me.LionGate.Controls.Add(Me.Button74)
+        Me.LionGate.Controls.Add(Me.Button75)
+        Me.LionGate.Controls.Add(Me.Button76)
+        Me.LionGate.Controls.Add(Me.Button77)
+        Me.LionGate.Controls.Add(Me.Button78)
+        Me.LionGate.Controls.Add(Me.Button79)
+        Me.LionGate.Controls.Add(Me.Button80)
+        Me.LionGate.Location = New System.Drawing.Point(4, 46)
+        Me.LionGate.Name = "LionGate"
+        Me.LionGate.Padding = New System.Windows.Forms.Padding(3)
+        Me.LionGate.Size = New System.Drawing.Size(1318, 482)
+        Me.LionGate.TabIndex = 1
+        Me.LionGate.Text = "Lion Gate"
+        Me.LionGate.UseVisualStyleBackColor = True
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(455, 35)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(96, 37)
+        Me.Label44.TabIndex = 109
+        Me.Label44.Text = "Room:"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(837, 32)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(173, 37)
+        Me.Label45.TabIndex = 108
+        Me.Label45.Text = "Track theme:"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
+        Me.ComboBox3.Location = New System.Drawing.Point(557, 32)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(247, 40)
+        Me.ComboBox3.TabIndex = 106
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
+        Me.ComboBox4.Location = New System.Drawing.Point(1016, 29)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(247, 40)
+        Me.ComboBox4.TabIndex = 107
         '
         'Label16
         '
@@ -1517,6 +1507,110 @@ Partial Class frmTimetable
         Me.Button80.Text = "Button80"
         Me.Button80.UseVisualStyleBackColor = True
         '
+        'DennisSciama
+        '
+        Me.DennisSciama.Controls.Add(Me.Label46)
+        Me.DennisSciama.Controls.Add(Me.Label47)
+        Me.DennisSciama.Controls.Add(Me.ComboBox5)
+        Me.DennisSciama.Controls.Add(Me.ComboBox6)
+        Me.DennisSciama.Controls.Add(Me.Label29)
+        Me.DennisSciama.Controls.Add(Me.Label30)
+        Me.DennisSciama.Controls.Add(Me.Label31)
+        Me.DennisSciama.Controls.Add(Me.Label32)
+        Me.DennisSciama.Controls.Add(Me.Label33)
+        Me.DennisSciama.Controls.Add(Me.Label34)
+        Me.DennisSciama.Controls.Add(Me.Label35)
+        Me.DennisSciama.Controls.Add(Me.Label36)
+        Me.DennisSciama.Controls.Add(Me.Label37)
+        Me.DennisSciama.Controls.Add(Me.Label38)
+        Me.DennisSciama.Controls.Add(Me.Label39)
+        Me.DennisSciama.Controls.Add(Me.Label40)
+        Me.DennisSciama.Controls.Add(Me.Label41)
+        Me.DennisSciama.Controls.Add(Me.Button81)
+        Me.DennisSciama.Controls.Add(Me.Button82)
+        Me.DennisSciama.Controls.Add(Me.Button83)
+        Me.DennisSciama.Controls.Add(Me.Button84)
+        Me.DennisSciama.Controls.Add(Me.Button85)
+        Me.DennisSciama.Controls.Add(Me.Button86)
+        Me.DennisSciama.Controls.Add(Me.Button87)
+        Me.DennisSciama.Controls.Add(Me.Button88)
+        Me.DennisSciama.Controls.Add(Me.Button89)
+        Me.DennisSciama.Controls.Add(Me.Button90)
+        Me.DennisSciama.Controls.Add(Me.Button91)
+        Me.DennisSciama.Controls.Add(Me.Button92)
+        Me.DennisSciama.Controls.Add(Me.Button93)
+        Me.DennisSciama.Controls.Add(Me.Button94)
+        Me.DennisSciama.Controls.Add(Me.Button95)
+        Me.DennisSciama.Controls.Add(Me.Button96)
+        Me.DennisSciama.Controls.Add(Me.Button97)
+        Me.DennisSciama.Controls.Add(Me.Button98)
+        Me.DennisSciama.Controls.Add(Me.Button99)
+        Me.DennisSciama.Controls.Add(Me.Button100)
+        Me.DennisSciama.Controls.Add(Me.Button101)
+        Me.DennisSciama.Controls.Add(Me.Button102)
+        Me.DennisSciama.Controls.Add(Me.Button103)
+        Me.DennisSciama.Controls.Add(Me.Button104)
+        Me.DennisSciama.Controls.Add(Me.Button105)
+        Me.DennisSciama.Controls.Add(Me.Button106)
+        Me.DennisSciama.Controls.Add(Me.Button107)
+        Me.DennisSciama.Controls.Add(Me.Button108)
+        Me.DennisSciama.Controls.Add(Me.Button109)
+        Me.DennisSciama.Controls.Add(Me.Button110)
+        Me.DennisSciama.Controls.Add(Me.Button111)
+        Me.DennisSciama.Controls.Add(Me.Button112)
+        Me.DennisSciama.Controls.Add(Me.Button113)
+        Me.DennisSciama.Controls.Add(Me.Button114)
+        Me.DennisSciama.Controls.Add(Me.Button115)
+        Me.DennisSciama.Controls.Add(Me.Button116)
+        Me.DennisSciama.Controls.Add(Me.Button117)
+        Me.DennisSciama.Controls.Add(Me.Button118)
+        Me.DennisSciama.Controls.Add(Me.Button119)
+        Me.DennisSciama.Controls.Add(Me.Button120)
+        Me.DennisSciama.Location = New System.Drawing.Point(4, 46)
+        Me.DennisSciama.Name = "DennisSciama"
+        Me.DennisSciama.Size = New System.Drawing.Size(1318, 482)
+        Me.DennisSciama.TabIndex = 2
+        Me.DennisSciama.Text = "Dennis Sciama"
+        Me.DennisSciama.UseVisualStyleBackColor = True
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(458, 22)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(96, 37)
+        Me.Label46.TabIndex = 109
+        Me.Label46.Text = "Room:"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(840, 19)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(173, 37)
+        Me.Label47.TabIndex = 108
+        Me.Label47.Text = "Track theme:"
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
+        Me.ComboBox5.Location = New System.Drawing.Point(560, 19)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(247, 40)
+        Me.ComboBox5.TabIndex = 106
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
+        Me.ComboBox6.Location = New System.Drawing.Point(1019, 16)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(247, 40)
+        Me.ComboBox6.TabIndex = 107
+        '
         'Label29
         '
         Me.Label29.AutoSize = True
@@ -2041,100 +2135,6 @@ Partial Class frmTimetable
         Me.Button120.TabIndex = 53
         Me.Button120.Text = "Button120"
         Me.Button120.UseVisualStyleBackColor = True
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(827, 22)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(173, 37)
-        Me.Label42.TabIndex = 53
-        Me.Label42.Text = "Track theme:"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(445, 25)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(96, 37)
-        Me.Label43.TabIndex = 54
-        Me.Label43.Text = "Room:"
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(455, 35)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(96, 37)
-        Me.Label44.TabIndex = 109
-        Me.Label44.Text = "Room:"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(837, 32)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(173, 37)
-        Me.Label45.TabIndex = 108
-        Me.Label45.Text = "Track theme:"
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
-        Me.ComboBox3.Location = New System.Drawing.Point(557, 32)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(247, 40)
-        Me.ComboBox3.TabIndex = 106
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
-        Me.ComboBox4.Location = New System.Drawing.Point(1016, 29)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(247, 40)
-        Me.ComboBox4.TabIndex = 107
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(458, 22)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(96, 37)
-        Me.Label46.TabIndex = 109
-        Me.Label46.Text = "Room:"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(840, 19)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(173, 37)
-        Me.Label47.TabIndex = 108
-        Me.Label47.Text = "Track theme:"
-        '
-        'ComboBox5
-        '
-        Me.ComboBox5.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
-        Me.ComboBox5.Location = New System.Drawing.Point(560, 19)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(247, 40)
-        Me.ComboBox5.TabIndex = 106
-        '
-        'ComboBox6
-        '
-        Me.ComboBox6.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Items.AddRange(New Object() {"Saturday 23rd June", "Sunday 24th June", "Monday 25th June", "Tuesday 26th June", "Wednesday 27th June", "Thursday 28th June"})
-        Me.ComboBox6.Location = New System.Drawing.Point(1019, 16)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(247, 40)
-        Me.ComboBox6.TabIndex = 107
         '
         'frmTimetable
         '

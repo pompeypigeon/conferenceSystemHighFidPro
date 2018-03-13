@@ -29,7 +29,7 @@
         Label3.Text = "Time: " + Now.ToShortTimeString
         lblLoc.Text = "Buckingham BK1.01"
         lblNext.Text = "Security in IoT"
-        lblTime.Text = "12:00 - 13-00"
+        lblTime.Text = "12:00 - 13:00"
     End Sub
 
     Private Sub picTrans_Click(sender As Object, e As EventArgs) Handles picTrans.Click
